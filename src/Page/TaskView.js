@@ -26,9 +26,9 @@ function Dashboard () {
 	}
 
 	const taskPercentage = (status) => {
-		const tasksNum = tasksList.length
+		const tasksNum = tasks.length
 		const task = []
-		tasksList.forEach(t => {
+		tasks.forEach(t => {
 			if (t.status === status) {
 				 task.push(task)
 			}
